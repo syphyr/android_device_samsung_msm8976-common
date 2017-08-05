@@ -364,6 +364,9 @@ vendor/lib/libscale.so
 etc/firmware/a530_pfp.fw
 etc/firmware/a530_pm4.fw
 
+# HotwordEnrollment
+-priv-app/HotwordEnrollment/HotwordEnrollment.apk:priv-app/HotwordEnrollment/HotwordEnrollment.apk:PRESIGNED
+
 # Keystore
 vendor/lib64/hw/keystore.msm8952.so
 
