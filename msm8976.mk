@@ -21,7 +21,7 @@ $(call inherit-product, vendor/samsung/msm8976-common/msm8976-common-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+#    $(LOCAL_PATH)/overlay-lineage
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal large xlarge
@@ -128,7 +128,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-impl \
     android.hardware.graphics.mapper@2.0-impl \
     android.hardware.memtrack@1.0-impl \
-    AdvancedDisplay \
     copybit.msm8952 \
     gralloc.msm8952 \
     hwcomposer.msm8952 \
