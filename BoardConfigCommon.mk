@@ -106,13 +106,6 @@ TARGET_USES_MEDIA_EXTENSIONS := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-# CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS += \
-    hardware/cyanogen/cmhw \
-    hardware/samsung/cmhw \
-    $(VENDOR_PATH)/cmhw
-
 # Dex
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
@@ -167,6 +160,11 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
+
+# Lineage hardware
+BOARD_HARDWARE_CLASS += \
+    hardware/samsung/cmhw \
+    $(VENDOR_PATH)/lineagehw
 
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
