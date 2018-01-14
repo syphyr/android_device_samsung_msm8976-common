@@ -234,4 +234,7 @@
 
     <!-- For performance and storage reasons, limit the number of fingerprints per user -->
     <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
+
+    <!-- Only light up capacitive keys when pressed -->
+    <bool name="config_buttonLightOnKeypressOnly">true</bool>
 </resources>
