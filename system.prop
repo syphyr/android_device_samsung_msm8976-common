@@ -12,6 +12,7 @@ audio.offload.pcm.24bit.enable=true
 audio.offload.track.enable=true
 audio.offload.video=true
 audio.playback.mch.downsample=true
+audio.pp.asphere.enabled=false
 audio.safx.pbe.enabled=true
 
 persist.audio.fluence.speaker=true
@@ -26,6 +27,7 @@ rec.playback.conc.disabled=true
 voice.conc.fallbackpath=deep-buffer
 voice.playback.conc.disabled=true
 voice.record.conc.disabled=false
+voice.voip.conc.disabled=false
 
 use.qti.sw.alac.decoder=true
 use.qti.sw.ape.decoder=true
@@ -38,6 +40,8 @@ ro.bt.bdaddr_path=/efs/bluetooth/bt_addr
 ro.qualcomm.bt.hci_transport=smd
 
 # Camera
+camera.display.umax=1920x1080
+camera.display.lmax=1280x720
 media.camera.ts.monotonic=1
 
 # Dex2oat threads for faster app installation
@@ -60,11 +64,13 @@ persist.gps.qc_nlp_in_use=1
 ro.gps.agps_provider=1
 
 # Media
+qcom.hw.aac.encoder=true
 media.msm8956hw=0
 media.msm8956.version=0
 mm.enable.smoothstreaming=true
 mmp.enable.3g2=true
 media.aac_51_output_enabled=true
+vidc.enc.dcvs.extra-buff-count=2
 vidc.enc.narrow.searchrange=1
 
 # Perf
