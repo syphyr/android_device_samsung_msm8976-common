@@ -304,9 +304,4 @@
 
     <!-- Only light up capacitive keys when pressed -->
     <bool name="config_buttonLightOnKeypressOnly">true</bool>
-
-    <!-- Whether the device should automatically switch away from Wi-Fi networks that lose
-         Internet access. Actual device behaviour is controlled by
-         Settings.Global.NETWORK_AVOID_BAD_WIFI. This is the default value of that setting. -->
-    <integer translatable="false" name="config_networkAvoidBadWifi">0</integer>
 </resources>
