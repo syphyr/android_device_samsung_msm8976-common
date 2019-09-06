@@ -82,5 +82,8 @@ net.tcp.2g_init_rwnd=10
 # Time
 persist.timed.enable=true
 
+# Timeout failed shutdowns
+ro.build.shutdown_timeout=5
+
 # WiFi
 wifi.interface=wlan0
