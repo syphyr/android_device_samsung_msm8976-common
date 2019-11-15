@@ -77,7 +77,7 @@ vidc.enc.narrow.searchrange=1
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Sdcardfs
-ro.sys.sdcardfs=false
+ro.sys.sdcardfs=true
 
 # TCP
 net.tcp.2g_init_rwnd=10
